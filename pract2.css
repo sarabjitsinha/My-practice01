@@ -1,0 +1,29 @@
+body{
+    background-size: cover;
+    background-image: url('IMG1.jpg');
+}
+
+.vdo {
+display: flex;
+flex-direction: column;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.ulst:hover {
+    animation-name: lstop;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes lstop {
+    25%{
+        transform: scale(1.2);
+    }
+    50% {
+        color: blue;
+    }
+}
