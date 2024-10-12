@@ -1,8 +1,9 @@
+/*
 body{
     background-size: cover;
     background-image: url('IMG1.jpg');
 }
-
+*/
 .vdo {
 display: flex;
 flex-direction: column;
@@ -24,6 +25,6 @@ html{
         transform: scale(1.2);
     }
     50% {
-        color: blue;
+        color: rgb(0, 183, 255);
     }
 }
