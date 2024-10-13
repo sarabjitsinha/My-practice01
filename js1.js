@@ -1,6 +1,8 @@
+
+
 let a=10;
 let b=20;
-console.log(a+b);
+console.log( a+b);
 
 
 let c='20';
@@ -48,9 +50,3 @@ c='aksh';
  result=c%d;
 console.log("Using Modulus operator on string and number",result);
 
-function isint(p) {
-  l=p.length;
-  console.log(l);
-   
-}
-isint(200);
