@@ -2,20 +2,6 @@ let a=10;
 let b=20;
 console.log(a+b);
 
-//let i=0;
-//let k=9;
-
-// for(i=1;i<=10;i++)
-// {
-//     console.log('\n');
-    
-// for(k=0;k<i;k++)
-//     {
-//     console.log('*');
-//   //  console.log('\n');
-    
-//   }
-// }
 
 let c='20';
 let d=20;
@@ -51,3 +37,20 @@ console.log(typeof(result));
 
 let t=Math.floor(Math.random()*900+100)
 console.log(t);
+
+ c='aksh';
+ d=20;
+ result=c/d;
+console.log("Using division operator on string and number",result);
+
+c='aksh';
+ d=20;
+ result=c%d;
+console.log("Using Modulus operator on string and number",result);
+
+function isint(p) {
+  l=p.length;
+  console.log(l);
+   
+}
+isint(200);
